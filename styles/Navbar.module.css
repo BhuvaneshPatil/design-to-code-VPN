@@ -1,0 +1,31 @@
+.nav {
+	padding: 25px 0 25px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav * {
+	align-items: center;
+}
+.logo {
+	align-items: center;
+}
+.logo h3 {
+	margin-left: 8px;
+	font-size: 20px;
+}
+.navLinks {
+	list-style: none;
+}
+.navLinks li {
+	margin: 0 16px;
+}
+.navLink {
+	color: #4f5665;
+	transition: all 0s 0.2s;
+}
+.navLink:hover {
+	color: #131392;
+}
+.signin {
+	font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.borderRed {
+	border: 2px solid #f53838;
+}
+.backGroundRed {
+	background-color: #f53838;
+}
+.roundedBorder {
+	border-radius: 20px;
+}
+.softBorder {
+	border-radius: 5px;
+}
+.textWhite {
+	color: #fff;
+}
+.textRed {
+	color: #f53838;
+}
