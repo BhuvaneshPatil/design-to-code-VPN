@@ -23,3 +23,6 @@ a {
 .container {
 	margin: 0 8% 0 8%;
 }
+.leftContainer {
+	margin-left: 8%;
+}

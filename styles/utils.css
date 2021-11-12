@@ -4,15 +4,31 @@
 .backGroundRed {
 	background-color: #f53838;
 }
+.backgroundWhite {
+	background-color: #fff;
+}
 .roundedBorder {
 	border-radius: 20px;
 }
 .softBorder {
-	border-radius: 5px;
+	border-radius: 10px;
 }
 .textWhite {
 	color: #fff;
 }
 .textRed {
 	color: #f53838;
+}
+.textGray {
+	color: #4f5665;
+}
+.textDark {
+	color: #0b132a;
+}
+.buttonShadow {
+	box-shadow: 0px 8px 15px rgba(245, 56, 56, 0.35);
+	transition: all 0.2s;
+}
+.buttonShadow:hover {
+	box-shadow: 0px 8px 15px rgba(245, 56, 56, 0.5);
 }

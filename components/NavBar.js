@@ -48,14 +48,15 @@ const NavBar = () => {
 						<h4>Sign In</h4>
 					</a>
 				</Link>
+				{/* Sig n Up */}
 				<div style={{ marginLeft: 20 }}>
 					<Button
 						LabelComponent={<h4 className={"textRed"}>Sign Up</h4>}
 						outlined
 						borderRadiusType="roundedBorder"
+						extraStyles={{ padding: "12px 40px" }}
 					/>
 				</div>
-				{/* Sign Up */}
 			</div>
 		</div>
 	);

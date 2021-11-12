@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { NavBar } from "../components";
+import { Hero, NavBar, Stats } from "../components";
 
 export default function Home() {
 	return (
@@ -14,6 +14,12 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<NavBar />
+			{/* Hero */}
+			<Hero />
+			<div className="container">
+				{/* Fetures */}
+				<Stats />
+			</div>
 		</div>
 	);
 }
