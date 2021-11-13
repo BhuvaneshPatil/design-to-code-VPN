@@ -26,7 +26,7 @@ const Stats = () => {
 				const borderClass =
 					index < stats.length - 1 ? styles.borderRight : "";
 				return (
-					<div className={`${styles.stat} ${borderClass}`}>
+					<div className={`${styles.stat} ${borderClass}`} key={index}>
 						<img
 							src={item.imageUrl}
 							className={`${styles.statImage} `}

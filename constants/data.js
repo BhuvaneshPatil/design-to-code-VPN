@@ -7,6 +7,7 @@ export const plans = {
 			"No Traffic Logs",
 			"Works on All Devices",
 		],
+		image: "/images/Free.png",
 	},
 	"Standard Plan": {
 		price: 9,
@@ -17,6 +18,7 @@ export const plans = {
 			"Works on All Devices",
 			"Connect Anywhere",
 		],
+		image: "/images/Standard.png",
 	},
 	"Premium Plan": {
 		price: 12,
@@ -28,6 +30,7 @@ export const plans = {
 			"Connect Anywhere",
 			"Get Anywhere",
 		],
+		image: "/images/Premium.png",
 	},
 };
 export const reviews = [

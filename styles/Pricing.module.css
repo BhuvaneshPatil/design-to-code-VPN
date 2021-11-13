@@ -1,0 +1,14 @@
+.pricingContainer {
+	padding: 3rem 0;
+}
+.pricingContainer h1 {
+	text-align: center;
+}
+.pricingContainer > p {
+	margin: 1rem 0 2rem 0;
+	text-align: center;
+}
+.cardsContainer {
+	margin-top: 5rem;
+	justify-content: space-between;
+}

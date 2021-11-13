@@ -1,0 +1,43 @@
+.featureContainer {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.featureImageSide {
+	flex: 1;
+}
+.featureTextSide {
+	flex: 1;
+	padding: 2rem 4.5rem;
+}
+.featureTextSide h1 {
+	max-width: 80%;
+}
+.featureTextSide > p {
+	margin-top: 1.5rem;
+}
+.featureList {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.tickContainerStyle {
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #2fab73;
+}
+.feature {
+	display: flex;
+	align-items: flex-start;
+}
+.feature:nth-child(n + 1) {
+	margin-top: 15px;
+}
+.feature p {
+	margin-left: 10px;
+	font-size: 14px;
+}

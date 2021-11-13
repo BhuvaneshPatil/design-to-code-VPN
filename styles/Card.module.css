@@ -1,0 +1,36 @@
+.cardBody {
+	background-color: #fff;
+	border-radius: 10px;
+	min-width: 30%;
+	max-width: 30%;
+	padding-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	padding-top: 3rem;
+}
+.cardHeading {
+	text-align: center;
+}
+.planImage {
+	max-width: 50%;
+	height: auto;
+	align-self: center;
+	margin-bottom: 2rem;
+}
+.cardBody ul {
+	list-style: none;
+	align-self: center;
+	margin-top: 1.5rem;
+}
+.cardBody ul li {
+	margin-top: 1rem;
+}
+.cardBody ul p {
+	margin-left: 1rem;
+	font-size: 14;
+}
+.pricing {
+	padding-top: 2rem;
+	margin-top: auto;
+	align-self: center;
+}

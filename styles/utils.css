@@ -7,6 +7,12 @@
 .backgroundWhite {
 	background-color: #fff;
 }
+.backgroundGray {
+	background-color: #f8f8f8;
+}
+.backgroundLightGray {
+	background-color: #f6f6f6;
+}
 .roundedBorder {
 	border-radius: 20px;
 }
