@@ -24,7 +24,7 @@ const Features = () => {
 				<ul className={`${styles.featureList}`}>
 					{featureList.map((item, index) => {
 						return (
-							<li className={`${styles.feature}`}>
+							<li className={`${styles.feature}`} key={index}>
 								{/* icon */}
 								<div className={`${styles.tickContainerStyle}`}>
 									<TiTick style={{ color: "#fff" }} />

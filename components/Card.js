@@ -11,7 +11,10 @@ const Card = ({ isActive, cardInfo, title }) => {
 			<ul>
 				{cardInfo.features.map((item, index) => {
 					return (
-						<li style={{ display: "flex", alignItems: "center" }}>
+						<li
+							style={{ display: "flex", alignItems: "center" }}
+							key={index}
+						>
 							<TiTick
 								style={{
 									color: "#2fab73",
