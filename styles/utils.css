@@ -1,6 +1,9 @@
 .borderRed {
 	border: 2px solid #f53838;
 }
+.borderGray {
+	border: 2px solid #dddddd;
+}
 .backGroundRed {
 	background-color: #f53838;
 }

@@ -6,5 +6,17 @@ import Features from "./Features";
 import Pricing from "./Pricing";
 import Card from "./Card";
 import GlobalPresence from "./GlobalPresence";
-
-export { NavBar, Button, Hero, Stats, Features, Pricing, Card, GlobalPresence };
+import Reviews from "./Reviews";
+import ReviewCard from "./ReviewCard";
+export {
+	NavBar,
+	Button,
+	Hero,
+	Stats,
+	Features,
+	Pricing,
+	Card,
+	GlobalPresence,
+	Reviews,
+	ReviewCard,
+};

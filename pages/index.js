@@ -6,6 +6,7 @@ import {
 	Hero,
 	NavBar,
 	Pricing,
+	Reviews,
 	Stats,
 } from "../components";
 
@@ -31,6 +32,7 @@ export default function Home() {
 			</div>
 			<Pricing />
 			<GlobalPresence />
+			<Reviews />
 		</div>
 	);
 }

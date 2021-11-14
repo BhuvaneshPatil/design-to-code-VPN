@@ -3,4 +3,5 @@ export const images = {
 	icons: "/images/logo.png",
 	feature_image: "/images/features_image.png",
 	global_map: "/images/map.png",
+	brand_images: "/images/Sponsored.png",
 };

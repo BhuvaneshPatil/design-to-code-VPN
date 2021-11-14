@@ -21,6 +21,7 @@ const GlobalPresence = () => {
 					className={`${styles.mapImage}`}
 				/>
 			</div>
+			<img src={images.brand_images} />
 		</div>
 	);
 };
