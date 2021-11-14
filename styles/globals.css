@@ -26,3 +26,6 @@ a {
 .leftContainer {
 	margin-left: 8%;
 }
+.horizontalCenter {
+	justify-content: center;
+}

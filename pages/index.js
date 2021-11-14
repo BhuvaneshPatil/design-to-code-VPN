@@ -1,6 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Features, Hero, NavBar, Pricing, Stats } from "../components";
+import {
+	Features,
+	GlobalPresence,
+	Hero,
+	NavBar,
+	Pricing,
+	Stats,
+} from "../components";
 
 export default function Home() {
 	return (
@@ -23,6 +30,7 @@ export default function Home() {
 				<Features />
 			</div>
 			<Pricing />
+			<GlobalPresence />
 		</div>
 	);
 }
