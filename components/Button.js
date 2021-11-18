@@ -9,7 +9,7 @@ const Button = ({
 }) => {
 	const outlined_classname = outlined
 		? "borderRed backgroundWhite"
-		: "backGroundRed";
+		: "backgroundRed";
 	const boxshadow = boxshadowEnabled ? "buttonShadow" : "";
 	return (
 		<button

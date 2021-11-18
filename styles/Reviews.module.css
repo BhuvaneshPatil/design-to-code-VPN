@@ -13,3 +13,35 @@
 	margin-top: 1.5rem;
 	text-align: center;
 }
+.dotContainer {
+	display: flex;
+}
+.dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	transition: all 0.3s;
+	margin: 0 5px;
+}
+.dot:hover {
+	cursor: pointer;
+}
+.dotExtended {
+	width: 25px;
+	border-radius: 10px;
+}
+.buttonsContainer {
+	display: flex;
+	margin-left: auto;
+}
+.scollButtonContainer {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.2s;
+}

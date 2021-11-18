@@ -4,7 +4,7 @@
 .borderGray {
 	border: 2px solid #dddddd;
 }
-.backGroundRed {
+.backgroundRed {
 	background-color: #f53838;
 }
 .backgroundWhite {
@@ -16,6 +16,10 @@
 .backgroundLightGray {
 	background-color: #f6f6f6;
 }
+.backgroundDarkGray {
+	background-color: #dde0e4;
+}
+
 .roundedBorder {
 	border-radius: 20px;
 }
