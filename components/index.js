@@ -8,6 +8,7 @@ import Card from "./Card";
 import GlobalPresence from "./GlobalPresence";
 import Reviews from "./Reviews";
 import ReviewCard from "./ReviewCard";
+import Footer from "./Footer";
 export {
 	NavBar,
 	Button,
@@ -19,4 +20,5 @@ export {
 	GlobalPresence,
 	Reviews,
 	ReviewCard,
+	Footer,
 };

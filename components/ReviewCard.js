@@ -4,7 +4,7 @@ const ReviewCard = ({ isActive, reviewData }) => {
 	return (
 		<div
 			className={`roundedBorder ${styles.cardContainer} ${
-				isActive ? "borderRed" : "borderGray"
+				isActive ? `borderRed ${styles.cardShadow}` : "borderGray"
 			}`}
 		>
 			{/* Person */}

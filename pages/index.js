@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import {
 	Features,
+	Footer,
 	GlobalPresence,
 	Hero,
 	NavBar,
@@ -33,6 +34,7 @@ export default function Home() {
 			<Pricing />
 			<GlobalPresence />
 			<Reviews />
+			<Footer />
 		</div>
 	);
 }
